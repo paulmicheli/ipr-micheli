@@ -8,10 +8,8 @@ def main():
     print("Welcome to the Psych 'Sidekick Name Picker.'\n")
     print("A name just like Sean would pick for Gus:\n\n")
 
-    first = ( "Bill",
-            "Bob", 'Bowel Noises', 'Boxelder', "Bud", 'Chad', 'Chesterfield',
-            'Chewy', 'Chigger', 'Cinnabuns', 'Cleet', 'Cornbread', 'Crab Meat',
-            'Crapps', 'Dark Skies', 'Dennis Clawhammer', 'Dicman', 'Elphonso',
+    first = ( "Bill", "Bob", "Bud", 'Chad', 'Chesterfield',
+            'Chewy', 'Chigger', 'Cleet', 'Dennis', 'Dicman', 'Elphonso',
             'Fancypants', 'Figgs', 'Foncy', 'Gootsy', 'Greasy Jim',
             'Huggy', 'Ignatious', 'Jimbo', "Joe", 'Johnny',
             'Lemongrass', 'Lil Debil', 'Longbranch', '"Lunch Money"',
@@ -23,9 +21,11 @@ def main():
             'Storyboard', 'Sweet Tea', 'TeeTee', 'Wheezy Joe',
             "Winston", 'Worms', 'Mergatroid', 'Huckleberry')
 
-    middle = ("Stinkbug", "Beenie-Weenie", "Pottin Soil", "The Squirts",
-            "Jazz Hands", 'Baby Oil', 'Bad News', 'Big Burps', 'Lite',
-            'Butterbean', 'Buttermilk', 'Buttocks',)
+    middle = ('Stinkbug', 'Beenie-Weenie', 'Pottin Soil', 'The Squirts',
+            'Jazz Hands', 'Baby Oil', 'Bad News', 'Big Burps', 'Lite',
+            'Butterbean', 'Buttermilk', 'Buttocks', 'Bowel Noises', 
+            'Boxelder', 'Cinnabuns', 'Cornbread', 'Crab Meat',
+            'Crapps', ' Clawhammer', 'Dark Skies',)
 
     last = ('Appleyard', 'Bigmeat', 'Bloominshine', 'Boogerbottom',
             'Breedslovetrout', 'Butterbaugh', 'Clovenhoof', 'Clutterbuck',
