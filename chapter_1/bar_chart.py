@@ -7,13 +7,13 @@ from collections import defaultdict
 def main():
     text = input("Type a short phrase: ")
 
-    ALPHABET = 'áabcdefghijklmnopqrstuvwxyz'
+    alphabet = 'áabcdefghijklmnopqrstuvwxyz'
 
     # defaultdict module lets you build dictionary keys on the fly!
     mapped = defaultdict(list)
     for character in text:
         character = character.lower()
-        if character in ALPHABET:
+        if character in alphabet:
             mapped[character].append(character)
 
     # pprint lets you print stacked output
