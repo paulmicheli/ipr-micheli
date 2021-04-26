@@ -5,11 +5,34 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Pseudonym Silly Name Generator",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
+            "program": "chapter_1/pseudonym.py",
+            "console": "integratedTerminal",
+            "env": {
+                "LOGLEVEL": "DEBUG"
+            }
+        },
+        {
+            "name": "Bar Chart",
+            "type": "python",
+            "request": "launch",
+            "program": "chapter_1/bar_chart.py",
+            "console": "integratedTerminal",
+            "env": {
+                "LOGLEVEL": "DEBUG"
+            }
+        },
+        {
+            "name": "Pig Latin",
+            "type": "python",
+            "request": "launch",
+            "program": "chapter_1/pig_latin.py",
+            "console": "integratedTerminal",
+            "env": {
+                "LOGLEVEL": "DEBUG"
+            }
         }
     ]
 }
