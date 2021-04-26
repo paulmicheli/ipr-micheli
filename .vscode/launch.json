@@ -5,11 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Pseudonym Silly Name Generator",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
+            "program": "sng/pseudonym.py",
+            "console": "integratedTerminal",
+            "env": {
+                "LOGLEVEL": "DEBUG"
+            }
         }
     ]
 }

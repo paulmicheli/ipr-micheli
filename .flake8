@@ -7,6 +7,5 @@
 # E401: multiple imports on one line
 # E502: ???
 max-line-length = 160
-ignore = F403,E401,E501
 exclude = .git,__pycache__,*log*,.pyvenv
 max-complexity = 12
