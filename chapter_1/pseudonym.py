@@ -8,45 +8,51 @@ def main():
     print("Welcome to the Psych 'Sidekick Name Picker.'\n")
     print("A name just like Sean would pick for Gus:\n\n")
 
-    first = ('Baby Oil', 'Bad News', 'Big Burps', "Bill 'Beenie-Weenie'",
-            "Bob 'Stinkbug'", 'Bowel Noises', 'Boxelder', "Bud 'Lite'",
-            'Butterbean', 'Buttermilk', 'Buttocks', 'Chad', 'Chesterfield',
+    first = ( "Bill",
+            "Bob", 'Bowel Noises', 'Boxelder', "Bud", 'Chad', 'Chesterfield',
             'Chewy', 'Chigger', 'Cinnabuns', 'Cleet', 'Cornbread', 'Crab Meat',
             'Crapps', 'Dark Skies', 'Dennis Clawhammer', 'Dicman', 'Elphonso',
-            'Fancypants', 'Figgs', 'Foncy', 'Gootsy', 'Greasy Jim', 'Huckleberry',
-            'Huggy', 'Ignatious', 'Jimbo', "Joe 'Pottin Soil'", 'Johnny',
-            'Lemongrass', 'Lil Debil', 'Longbranch', '"Lunch Money"', 'Mergatroid',
+            'Fancypants', 'Figgs', 'Foncy', 'Gootsy', 'Greasy Jim',
+            'Huggy', 'Ignatious', 'Jimbo', "Joe", 'Johnny',
+            'Lemongrass', 'Lil Debil', 'Longbranch', '"Lunch Money"',
             '"Mr Peabody"', 'Oil-Can', 'Oinks', 'Old Scratch', 'Ovaltine',
             'Pennywhistle', 'Pitchfork Ben', 'Potato Bug', 'Pushmeet',
             'Rock Candy', 'Schlomo', 'Scratchensniff', 'Scut',
-            "Sid 'The Squirts'", 'Skidmark', 'Slaps', 'Snakes', 'Snoobs',
+            "Sid", 'Skidmark', 'Slaps', 'Snakes', 'Snoobs',
             'Snorki', 'Soupcan Sam', 'Spitzitout', 'Squids', 'Stinky',
             'Storyboard', 'Sweet Tea', 'TeeTee', 'Wheezy Joe',
-            "Winston 'Jazz Hands'", 'Worms')
+            "Winston", 'Worms', 'Mergatroid', 'Huckleberry')
+
+    middle = ("Stinkbug", "Beenie-Weenie", "Pottin Soil", "The Squirts",
+            "Jazz Hands", 'Baby Oil', 'Bad News', 'Big Burps', 'Lite',
+            'Butterbean', 'Buttermilk', 'Buttocks',)
 
     last = ('Appleyard', 'Bigmeat', 'Bloominshine', 'Boogerbottom',
             'Breedslovetrout', 'Butterbaugh', 'Clovenhoof', 'Clutterbuck',
-            'Cocktoasten', 'Endicott', 'Fewhairs', 'Gooberdapple', 'Goodensmith',
-            'Goodpasture', 'Guster', 'Henderson', 'Hooperbag', 'Hoosenater',
-            'Hootkins', 'Jefferson', 'Jenkins', 'Jingley-Schmidt', 'Johnson',
-            'Kingfish', 'Listenbee', "M'Bembo", 'McFadden', 'Moonshine', 'Nettles',
+            'Cocktoasten', 'Endicott', 'Fewhairs', 'Gooberdapple',
+            'Goodensmith', 'Goodpasture', 'Guster', 'Henderso n',
+            'Hooperbag', 'Hoosenater', 'Hootkins', 'Jefferson', 'Jenkins',
+            'Jingley-Schmidt', 'Johnson', 'Kingfish', 'Listenbee',
+            "M'Bembo", 'McFadden', 'Moonshine', 'Nettles',
             'Noseworthy', 'Olivetti', 'Outerbridge', 'Overpeck', 'Overturf',
             'Oxhandler', 'Pealike', 'Pennywhistle', 'Peterson', 'Pieplow',
             'Pinkerton', 'Porkins', 'Putney', 'Quakenbush', 'Rainwater',
             'Rosenthal', 'Rubbins', 'Sackrider', 'Snuggleshine', 'Splern',
             'Stevens', 'Stroganoff', 'Sugar-Gold', 'Swackhamer', 'Tippins',
-            'Turnipseed', 'Vinaigrette', 'Walkingstick', 'Wallbanger', 'Weewax',
-            'Weiners', 'Whipkey', 'Wigglesworth', 'Wimplesnatch', 'Winterkorn',
-            'Woolysocks')
-
+            'Turnipseed', 'Vinaigrette', 'Walkingstick', 'Wallbanger',
+            'Weewax', 'Weiners', 'Whipkey', 'Wigglesworth',
+            'Wimplesnatch', 'Winterkorn', 'Woolysocks')
 
     while True:
+
         first_name = random.choice(first)
+
+        middle_name = random.choice(middle)
 
         last_name = random.choice(last)
 
         print("\n\n")
-        print("{} {}".format(first_name, last_name), file=sys.stderr)
+        print("{} {} {}".format(first_name, middle_name, last_name), file=sys.stderr)
         print("\n\n")
 
         try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")

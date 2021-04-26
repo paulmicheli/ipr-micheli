@@ -8,7 +8,27 @@
             "name": "Pseudonym Silly Name Generator",
             "type": "python",
             "request": "launch",
-            "program": "sng/pseudonym.py",
+            "program": "chapter_1/pseudonym.py",
+            "console": "integratedTerminal",
+            "env": {
+                "LOGLEVEL": "DEBUG"
+            }
+        },
+        {
+            "name": "Bar Chart",
+            "type": "python",
+            "request": "launch",
+            "program": "chapter_1/bar_chart.py",
+            "console": "integratedTerminal",
+            "env": {
+                "LOGLEVEL": "DEBUG"
+            }
+        },
+        {
+            "name": "Pig Latin",
+            "type": "python",
+            "request": "launch",
+            "program": "chapter_1/pig_latin.py",
             "console": "integratedTerminal",
             "env": {
                 "LOGLEVEL": "DEBUG"
