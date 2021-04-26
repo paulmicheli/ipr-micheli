@@ -1,5 +1,9 @@
 # Distribution / packaging
 .pyvenv
 
+#Python bits
+*__pycache__*
+
+
 #Source Files
 .src
